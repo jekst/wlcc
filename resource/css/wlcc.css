@@ -39,14 +39,15 @@ ol,ul,li{list-style: none;padding:0;margin:0;}
 .clearfix{*zoom: 1}
 .clearfix:before,.clearfix:after{display: table; line-height: 0;content: ""}
 .clearfix:after{clear: both;}
+.pw{width:100%;min-width:1260px;}
 .wrap{width:1260px;margin:0 auto;position:relative;}
 #header{height:100px;background-color:rgba(0,0,0,.5);position:fixed;top:0;width:100%;z-index:1000;}
-.logo{background:url(../img/logo.png) no-repeat 50% 50%;float:left; height:100px;margin-left:20px;}
+.logo{background:url(../img/logo.png) no-repeat 50% 50%;float:left; height:100px;margin-left:20px;width:100px;}
 .nav{float:right;margin:29px 0;}
 .nav a{padding:10px 30px;float:left;color:#fff;text-decoration:none;font-size:16px;}
 .nav a.on{background-color:#5D7CBD;}
-#footer{background-color: #252525;font-size:16px; padding: 64px 0;text-align:center;}
-#footer p{color:#a0a0a0;line-height: 36px;}
+#footer{background-color: #252525;font-size:14px; padding: 64px 0;text-align:center;}
+#footer p{color:#a0a0a0;line-height: 28px;}
 .text-hide{color:transparent; text-shadow:none;text-indent:100%;overflow:hidden;}
 .swiper-container{width:100%;min-width:1260px;}
 .swiper-button-prev{background:url(../img/left.png) no-repeat 50% 50%;left:20px;width:100px;height:100px;}
