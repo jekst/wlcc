@@ -13,6 +13,9 @@ $(function() {
 		});
 		$('.nav a').click(function(){
 			$(this).addClass('on').siblings().removeClass('on');
+			if($(this).hasClass('j-case')){
+				$(window).scrollTop($('#case').position().top-40);
+			}
 		});
 		if(location.hash=="#case"){
 			$('.j-case').click();
